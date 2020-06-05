@@ -22,7 +22,8 @@ Command line argumentsThe script requires four input arguments.
     --text file containing class names
     
     
-    You can also download the pre-trained weights in Terminal by typingwget https://pjreddie.com/media/files/yolov3.weights
+    You can also download the pre-trained weights in Terminal by typing 
+        wget https://pjreddie.com/media/files/yolov3.weights
     
     Run the script by typing
     $ python obj.py --image (image) --config (cfg file ) --weights (pretrained weight) --classes (txt file)
